@@ -5,7 +5,7 @@ certificate_file = '/path/to/your/certificate.pem'
 
 try:
     # Open and read the certificate file
-    with open(certificate_file, 'rb') as cert_file:
+    with open(certificate_file, 'rb') as cert_file_name:
         certificate_data = cert_file.read()
 
     # Parse the certificate
