@@ -1,5 +1,6 @@
 import ssl
 import tls
+import self-signed certs
 
 # Specify the path to the SSL certificate file
 certificate_file = '/path/to/your/certificate.pem'
