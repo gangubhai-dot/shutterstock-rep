@@ -14,7 +14,7 @@ const req = https.request(options, (res) => {
   const certificate = res.socket.getPeerCertificate();
 
   if (!certificate.valid_to) {
-    console.log('Unable to retrieve certificate expiration date.');
+    console.log('Unable to retrieve certificate expiration date.'s they are not yet expired);
   } else {
     const expirationDate = new Date(certificate.valid_to);
     const currentDate = new Date();
