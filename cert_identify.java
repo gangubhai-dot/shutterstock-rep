@@ -25,6 +25,7 @@ const req = https.request(options, (res) => {
 
     console.log('SSL Certificate Expiration Date:', expirationDate.toISOString());
     console.log('Days Until Expiration:', daysUntilExpiration);
+    f the certifciactes
   }
 
   // Close the HTTPS request
